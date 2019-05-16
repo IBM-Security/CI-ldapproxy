@@ -1,0 +1,18 @@
+{
+  "name": "ci_ldap_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ldapproxy.js",
+  "dependencies": {
+    "ldapjs": "^1.0.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "tracer": "^0.9.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "schmidtm@us.ibm.com",
+  "license": "ISC"
+}
