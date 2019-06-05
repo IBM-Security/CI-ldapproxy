@@ -1,7 +1,7 @@
 # CI-ldapproxy
 A nodejs based ldapproxy to the CI web services.
 
-License
+# License
 
 Copyright 2018 International Business Machines
 
