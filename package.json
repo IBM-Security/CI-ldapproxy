@@ -1,18 +1,23 @@
 {
   "name": "ci_ldap_proxy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "ldapproxy.js",
+  "version": "0.0.2",
+  "description": "IBM Cloud Identity LDAP Proxy",
+  "main": "proxy.js",
+  "author": "schmidtm@us.ibm.com",
+  "contributors": [
+    "Nathan A Cook <nathan.a.cook@ibm.com"
+  ],
+  "license": "Apache-2.0",
   "dependencies": {
+    "js-cache": "^1.0.3",
     "ldapjs": "^1.0.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "tracer": "^0.9.8"
+    "tracer": "^0.9.9"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "schmidtm@us.ibm.com",
-  "license": "ISC"
+    "test": "node ./src/test.jsc",
+    "start": "node ./src/proxy.js"
+  }
 }

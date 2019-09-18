@@ -2,14 +2,18 @@
 module.exports = {
     tenant: {
       ui: 'https://ppsdemo.ice.ibmcloud.com',
-      id: '35f095e9-65c6-4eab-9040-3c52ab6f3e3dxx',
-      secret: '3f6bN4mw66xx',
-      registry: 'bbdef01e-dce8-4fa4-b310-88b42b48169d'
+      id: 'xxxxxx-xxxxxx-xxxx-xxxxx',
+      secret: 'yyyyyyyyy',
+      registry: 'zzzzzz-zzzzz-zzzzz-zzzzz-zzzzzz'
     },
     ldap: {
       port: 389,
       root: 'o=pps',
       type: 'uid='
     },
-    log: "log"
+    cache: {
+      ttl: 60
+    },
+    log: "log",
   };
+  // log levels are log - trace - debug - info - warn - error
